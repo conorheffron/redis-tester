@@ -36,8 +36,10 @@ public class RedisApp {
 	private static JedisPool getConnection(String serverUri) {
 		try {
 			URI redisUri = new URI(serverUri);
+			String userInfo = redisUri.getUserInfo();
+			String password = userInfo.split(":", 2)[1];
 			JedisPool pool = new JedisPool(new JedisPoolConfig(), redisUri.getHost(), redisUri.getPort(),
-					Protocol.DEFAULT_TIMEOUT, redisUri.getUserInfo().split(":", 2)[1]);
+					Protocol.DEFAULT_TIMEOUT, password);
 			return pool;
 		} catch (URISyntaxException e) {
 			e.printStackTrace();
