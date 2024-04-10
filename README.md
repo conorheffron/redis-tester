@@ -13,4 +13,4 @@ null
 ```
 
 ## Technologies
-JDK 8, Redis Client 5.1.2, and Maven 4.7
+JDK 8 and Redis Client 5.1.2
