@@ -12,4 +12,5 @@ value-to-store
 null
 ```
 
-## Used Technologies : JDK 1.8.0_42, Spring 3.1.1, Tomcat 7.0 and Maven 4.7
+## Technologies
+JDK 8, Redis Client 5.1.2, and Maven 4.7
