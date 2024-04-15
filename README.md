@@ -1,3 +1,5 @@
+![Auto Assign](https://github.com/conorheffron/redis-tester/actions/workflows/auto-assign.yml/badge.svg)
+
 # redis-tester
 Tool for testing Redis instance by caching key-value pair.
 
