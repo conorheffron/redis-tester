@@ -15,4 +15,4 @@ null
 ```
 
 ## Technologies
-JDK 8 and Redis Client 5.1.2
+JDK 8 and Redis Client 5
