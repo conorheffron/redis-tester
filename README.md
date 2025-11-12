@@ -8,7 +8,7 @@
 - Tool for testing Redis instance by caching key-value pairs (setup of redis instance required).
 
 ## Technologies
-- JDK 17, Jedis Client, & Redis Instance
+- JDK 17, Jedis Client 7, & Redis Instance
 
 ## Build Project
 ```shell
@@ -18,13 +18,13 @@
 ## Usage Example
 ```shell
 java -cp target/redis-cache-tester-2.6.5-RELEASE.jar net.ironoc.redis.RedisApp \
-    redis://redis:your_password@localhost:6379/0 \
+    redis://$USER_ID:$PASSW@localhost:6379/0 \
     key-prefix value-prefix 7
 ```
 
 # Program arguments:
 ```
-redis://redis:$PASSW@localhost:6379/0 \
+redis://$USER_ID:$PASSW@localhost:6379/0 \
     key-prefix value-prefix token_count
 ```
 
