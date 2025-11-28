@@ -23,7 +23,7 @@ redis://$USER_ID:$PASSW@localhost:6379/0 \
 
 ### Usage Example
 ```shell
-java -cp target/redis-cache-tester-2.6.8-RELEASE.jar net.ironoc.redis.RedisApp \
+java -cp target/redis-cache-tester-2.6.9-RELEASE.jar net.ironoc.redis.RedisApp \
     redis://redis:your_password@localhost:6379/0 \
     key-prefix value-prefix 7
 ```
